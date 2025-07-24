@@ -1,6 +1,6 @@
 NAME		:= fixed
-CXX			:= g++
-CXXFLAGS	:= -fsanitize=address -g -Wextra -Wall -Werror
+CXX			:= c++
+CXXFLAGS	:= -g -Wextra -Wall -Werror
 
 SRCS		:= main.cpp Fixed.cpp
 OBJS		:= $(SRCS:.cpp=.o)
